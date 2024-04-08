@@ -1,6 +1,7 @@
 <input
   (keyup)="onKeyPress(txtInput.value)"
   type="text"
+  [value]="initialValue"
   [placeholder]="placeholder"
   class="form-control"
   #txtInput
